@@ -24,7 +24,7 @@ CentOS服务器需要安装软件比如nginx, tomcat等，但是服务器大多�
    ```
 
 2. 安装需要的软件，比如nginx
-   ```yum -y install nginx```
+   `yum -y install nginx`
 3. 把缓冲的文件打包
    对于CentOS7，位置是`/var/cache/yum/x86_64/6/base/packages`
    ```tar -zxf /var/cache/yum/x86_64/6/base/packages```
