@@ -41,7 +41,7 @@ gems:      ["jekyll-paginate"]
 #gems:      []
 
 # Conversion
-markdown:    kramdown
+markdown:    CommonMarkGhPages
 highlighter: pygments
 lsi:         false
 excerpt_separator: "\n\n"
