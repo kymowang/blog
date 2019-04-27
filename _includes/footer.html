@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
-                    <li>
+                   <!--  <li>
                         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -22,7 +22,7 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}
+                    {% endif %} -->
 
                     {% if site.github_username %}
                     <li>
@@ -87,18 +87,18 @@
     <input type="text" class="form-control cb-search-content" id="cb-search-content" style="position: fixed; top: 60px" placeholder="文章标题 日期 标签" >
 
     <div style="position: fixed; top: 16px; right: 16px;">
-        <img src="/blog/search/img/cb-close.png"  id="cb-close-btn"/>
+        <img src="/search/img/cb-close.png"  id="cb-close-btn"/>
     </div>
 </div>
 
 <div style="position: fixed; right: 16px; bottom: 20px;">
-    <img src="/blog/search/img/cb-search.png"  id="cb-search-btn"  title="双击ctrl试一下"/>
+    <img src="/search/img/cb-search.png"  id="cb-search-btn"  title="双击ctrl试一下"/>
 </div>
 
-<link rel="stylesheet" href="{{ "/blog/search/css/cb-search.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/search/css/cb-search.css" | prepend: site.baseurl }}">
 
-<script src="{{ "/blog/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/blog/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/search/js/bootstrap3-typeahead.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/search/js/cb-search.js" | prepend: site.baseurl }}"></script>
 
 <div style="display:none;">
     <script type="text/javascript" src="https://s23.cnzz.com/z_stat.php?id=1277369444&web_id=1277369444"></script>

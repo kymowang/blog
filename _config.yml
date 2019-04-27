@@ -1,12 +1,12 @@
 ######################站点全局信息，需要部分修改#########################
 # Site settings
 title: 枫 
-header-img: blog/img/home-bg.jpg
-email: app@codeboy.me
+header-img: /img/home-bg.jpg
+email: catamaran@aliyun.com
 url: "http://127.0.0.1"
 description: "编码生涯的点点滴滴"
-github_username:  androiddevelop
-zhihu_username: codeboy
+github_username:  kymowang
+zhihu_username: kymowang
 cloud_tie_public_key: "\"7a06774f1f184badbb64d9af7c3d5c2c\""
 ##########################上述信息需要您修改,cloud_tie_public_key两侧必须有引号############################
 
